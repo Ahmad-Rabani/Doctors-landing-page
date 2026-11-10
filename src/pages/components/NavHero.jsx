@@ -88,23 +88,16 @@ export default function DentalCareHero() {
           </div>
 
           {/* Right Image */}
-          <div className="relative bg-teal-700 min-h-[400px] lg:min-h-[600px] xl:min-h-[700px]">
-            <div className="absolute inset-0 flex items-end justify-center lg:justify-end">
-              {/* Placeholder for doctor image */}
-              <div className="w-full h-full bg-gradient-to-br from-teal-600 to-teal-800 flex items-end justify-center lg:justify-end">
-                <div className="relative w-full max-w-md lg:max-w-lg xl:max-w-xl h-full flex items-end">
-                  {/* Silhouette placeholder */}
-                  <div className="w-full h-5/6 bg-teal-900/30 rounded-t-full flex items-center justify-center">
-                    <svg className="w-32 h-32 text-teal-800" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
+          <div className="relative bg-teal-700 min-h-[400px] lg:min-h-[600px] xl:min-h-[700px] overflow-hidden">
+            <img
+              src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1400&q=80"
+              alt="Dentist consulting with a patient in a modern clinic"
+              className="absolute inset-0 w-full h-full object-cover object-center"
+            />
+            <div className="absolute inset-0 bg-gradient-to-l from-teal-900/35 via-teal-800/20 to-transparent" />
+
             {/* Large "DENTIST" text watermark */}
-            <div className="absolute top-1/2 right-0 transform -translate-y-1/2 opacity-10 pointer-events-none hidden xl:block">
+            <div className="absolute top-1/2 right-0 transform -translate-y-1/2 opacity-15 pointer-events-none hidden xl:block">
               <div className="text-white text-9xl font-black tracking-wider" style={{ fontSize: '200px', lineHeight: '1' }}>
                 DENTIST
               </div>
