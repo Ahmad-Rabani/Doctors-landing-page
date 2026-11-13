@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
+import Head from "next/head";
 import DentalCareHero from "./components/NavHero";
 import DentalExperienceSection from "./components/DentelExperiencre";
 import DentalServicesSection from "./components/DentelService";
@@ -14,19 +13,12 @@ import SocialMediaCommunitySection from "./components/SocialCommunity";
 import ClinicHoursSection from "./components/ClinicHours";
 import FooterSection from "./components/FooterSection";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export default function Home() {
   return (
-    <div>
+    <main className="overflow-x-hidden">
+      <Head>
+        <title>Noble Dental Care | Implant & Comprehensive Dentistry</title>
+      </Head>
       <DentalCareHero />
       <DentalExperienceSection />
       <DentalServicesSection />
@@ -40,6 +32,6 @@ export default function Home() {
       <SocialMediaCommunitySection />
       <ClinicHoursSection />
       <FooterSection />
-    </div>
+    </main>
   );
 }
