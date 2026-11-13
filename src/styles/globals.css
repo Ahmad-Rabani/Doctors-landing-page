@@ -79,6 +79,10 @@ body {
   color: var(--brand);
 }
 
+.eyebrow-light {
+  color: #e8d9c4;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(28px);

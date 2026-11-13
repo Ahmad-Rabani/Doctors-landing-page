@@ -36,7 +36,7 @@ export default function SocialMediaCommunitySection() {
       <div className="container-site relative">
         <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="reveal">
-            <p className="eyebrow text-[var(--accent-soft)]">Stay connected</p>
+            <p className="eyebrow eyebrow-light">Stay connected</p>
             <h2 className="mt-4 font-display text-[clamp(2rem,4.5vw,3.4rem)] leading-[1.1] text-balance">
               Join our online community
             </h2>

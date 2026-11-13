@@ -29,7 +29,7 @@ export default function AppointmentContactSection() {
       <div className="container-site">
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-14">
           <div className="reveal bg-atmosphere-deep p-8 text-white sm:p-10 lg:p-12">
-            <p className="eyebrow text-[var(--accent-soft)]">Visit us</p>
+            <p className="eyebrow eyebrow-light">Visit us</p>
             <h2 className="mt-4 font-display text-[clamp(1.9rem,3.5vw,3rem)] leading-[1.1] text-balance">
               Ready for outstanding dental care near you?
             </h2>

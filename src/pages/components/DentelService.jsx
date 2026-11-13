@@ -30,7 +30,7 @@ export default function DentalServicesSection() {
     <section id="services" className="section-pad bg-atmosphere-deep text-white">
       <div className="container-site">
         <div className="reveal max-w-2xl">
-          <p className="eyebrow text-[var(--accent-soft)]">What we offer</p>
+          <p className="eyebrow eyebrow-light">What we offer</p>
           <h2 className="mt-4 font-display text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.1] text-balance">
             Expert care for every smile
           </h2>

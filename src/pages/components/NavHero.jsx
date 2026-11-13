@@ -118,7 +118,7 @@ export default function DentalCareHero() {
       {/* Hero content — brand first, tight budget */}
       <div id="top" className="relative z-10 flex min-h-[100svh] items-end pb-16 pt-28 sm:items-center sm:pb-24 sm:pt-24">
         <div className="container-wide w-full max-w-3xl">
-          <p className="hero-animate eyebrow text-[var(--accent-soft)]">Union City · Newark · Hayward</p>
+          <p className="hero-animate eyebrow eyebrow-light">Union City · Newark · Hayward</p>
 
           <h1 className="hero-animate hero-animate-delay-1 mt-5 font-display text-[clamp(2.75rem,8vw,5.75rem)] leading-[0.95] tracking-tight text-balance">
             Noble Dental Care
